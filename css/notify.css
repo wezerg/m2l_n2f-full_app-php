@@ -1,0 +1,21 @@
+.notification{
+  position: fixed;
+  z-index: 11;
+  right: 0px;
+  top: 90px;
+  width: 370px;
+  transition: all ease-in-out 0.5s;
+  .card{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    .bloc-text{
+      padding-top: 5px;
+    }
+    i{
+      position: absolute;
+      font-size: 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
